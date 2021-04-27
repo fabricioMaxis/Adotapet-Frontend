@@ -32,6 +32,8 @@ import { RegisterSenhaOngComponent } from './components/register-senha-ong/regis
 import { RegisterDogComponent } from './components/register-dog/register-dog.component';
 import { RegisterCatComponent } from './components/register-cat/register-cat.component';
 import { HomePrincipalComponent } from './components/home-principal/home-principal.component';
+import { PerfilDogComponent } from './components/perfil-dog/perfil-dog.component';
+import { PerfilCatComponent } from './components/perfil-cat/perfil-cat.component';
 
 
 
@@ -54,7 +56,9 @@ import { HomePrincipalComponent } from './components/home-principal/home-princip
     RegisterSenhaOngComponent,
     RegisterDogComponent,
     RegisterCatComponent,
-    HomePrincipalComponent
+    HomePrincipalComponent,
+    PerfilDogComponent,
+    PerfilCatComponent
   ],
   imports: [
     BrowserModule,

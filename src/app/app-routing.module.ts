@@ -15,6 +15,8 @@ import { EditUserComponent } from './components/edit-user/edit-user.component';
 import {ForgotSenhaCodigoComponent} from './components/forgot-senha-codigo/forgot-senha-codigo.component'
 import {ForgotSenhaEmailComponent} from './components/forgot-senha-email/forgot-senha-email.component'
 import {ForgotSenhaNovaSenhaComponent} from './components/forgot-senha-nova-senha/forgot-senha-nova-senha.component'
+import {PerfilDogComponent} from './components/perfil-dog/perfil-dog.component'
+import {PerfilCatComponent} from './components/perfil-cat/perfil-cat.component'
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home-principal' },
@@ -33,6 +35,8 @@ const routes: Routes = [
   { path: 'esqueceu-senha-email', component: ForgotSenhaEmailComponent },
   { path: 'esqueceu-senha-codigo', component: ForgotSenhaCodigoComponent },
   { path: 'esqueceu-senha-nova-senha', component: ForgotSenhaNovaSenhaComponent },
+  { path: 'perfil-cat', component: PerfilCatComponent },
+  { path: 'perfil-ong', component: PerfilDogComponent },
 ];
 
 @NgModule({
